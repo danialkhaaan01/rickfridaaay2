@@ -1,0 +1,176 @@
+<html>
+    <head>
+    <title>FreakyFriday</title>
+    <style>
+    @font-face {
+       font-family: GeoOblique;
+       src: url(./GeoOblique.ttf);
+    }
+    #title {
+        background: #59C173;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        border: 3px solid black;
+        width: 27%;
+        font-size: 36px;
+        margin-top: 20px;
+        font-family: "Lobster", cursive;
+    }
+    #tekst {
+        position: absolute;
+        top: 550px;
+        right: 20px;
+        height: 250px;
+        width: 350px;
+        padding-left: 20px;
+        background: #59C173;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        padding-right: 20px;
+        font-size: 18px;
+        line-height: 1.7;
+        color: black;
+        border: 2px solid black;
+        background-color: white;
+        font-family: "Lobster", cursive;
+    }
+    #tekst2 {
+        position: absolute;
+        top: 150px;
+        right: 340px;
+        height: 275px;
+        width: 650px;
+        padding-left: 20px;
+        background: #59C173;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        padding-right: 20px;
+        font-size: 19px;
+        line-height: 1.6;
+        color: black;
+        border: 2px solid black;
+        background-color: white;
+        font-family: "Lobster", cursive;
+        
+    }
+    #tekst3 {
+        position: absolute;
+        top: 550px;
+        left: 20px;
+        height: 250px;
+        width: 350px;
+        text-align: center;
+        background: #59C173;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 20px;
+        line-height: 1.7;
+        color: black;
+        border: 2px solid black;
+        background-color: white;
+        font-family: "Lobster", cursive;
+    }
+    #tekst4 {
+        position: absolute;
+        top: 550px;
+        left: 480px;
+        height: 250px;
+        width: 350px;
+        background: #59C173;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 19px;
+        line-height: 1.6;
+        color: black;
+        border: 2px solid black;
+        background-color: white;
+        margin-bottom: 80px;
+        font-family: "Lobster", cursive;
+    }
+    #title2 {
+        font-size: 20px;
+        font-family: "Lobster", cursive;
+        text-align: center;
+    }
+    
+     body {
+  background-image: url(galakse.jpeg);
+  background-size: cover;
+  }
+
+
+#arrow-up {
+
+        margin-top:100px;                           
+        margin-left:100px;                           
+        width: 0;     
+        position: relative;
+        top:-90px;
+        left: -90px;                                
+                                                    
+        height: 0; 
+        border-left: 100px solid transparent;       
+        border-right: 100px solid transparent;        
+                                                    
+        border-bottom: 100px solid lightgreen;           
+}
+.rektangel{
+    position: relative;
+        top: -20px;
+        left: 200px;
+}
+#plass {
+        margin-top:60px;                           
+        margin-left:100px;   
+        position: fixed;
+        top: 20px;
+        left: 10px;                         
+}
+
+    </style>
+    </head>
+    
+    <center><i><h1 id="title">Areal og Omkrets</h1></i></center>
+    
+    
+    <div id="tekst">
+    <h2 id="title2">Sirkel</h2>
+    <p>A=4*r*r <br>O=2*pi*r</p>
+    <div id = "plass"></div>
+<svg width="120" height="120">
+    <circle cx="60" cy="60" r="50" stroke="white" stroke-width="5" fill="lightgreen" />
+  </svg>
+    </div>
+    
+    <div id="tekst2">
+    <h2 id="title2">Info om Areal og Omkrets</h2>
+    <p> Arealet er lengde multiplisert med bredde. Arealet til rektangler er lengde multiplisert med bredde. Arealet til rettvinklede trekanter er bredde multiplisert med
+        høyde dividert med 2. Arealet til sirkler er radius multiplisert med radius multiplisert med 3,14. Omkrets eller perimeter er lengden av en lukket kurve. Omkretsen av et to-dimensjonalt område er lik lengden av områdets begrensning.</p>
+    </div>
+    
+    <div id="tekst3">
+    <h2 id="title2">Trekant</h2>
+    <p>Areal: (Grunnlinje * høyde)/2 <br> Omkrets: S1+S2+S3</p>
+    <div id="arrow-up"></div>
+    
+    </div>
+    
+    <div id="tekst4">
+    <h2 id="title2">Rektangel</h2>
+    <p>Areal: L*B <br> Omkrets: 2L + 2B</p>
+    <div class = "rektangel"></div>
+    <svg width="250" height="150">
+        <rect width="300" height="100" style="fill:lightgreen;stroke-width:4;stroke:white">
+      </svg>
+       
+    
+    </div>
+ 
+    </body>
+    </html>
