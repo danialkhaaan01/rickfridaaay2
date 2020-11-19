@@ -1,6 +1,6 @@
 <html>
     <head>
-    <title>Areal</title>
+    <title>Omkrets</title>
     <style>
     @font-face {
        font-family: GeoOblique;
@@ -9,7 +9,7 @@
     #title {
         position: relative;
         top:60px;
-        left: 12px;
+        left: -20px;
         background: #59C173;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -22,7 +22,7 @@ background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+
     }
     #tekst {
         position: relative;
-        top: 503px;
+        top: 550px;
         left: 920px;
         height: 250px;
         width: 350px;
@@ -42,9 +42,9 @@ background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+
     #tekst2 {
         position: relative;
         top: -130px;
-        right: -450px;
-        height: 275px;
-        width: 405px;
+        right: -396px;
+        height: 325px;
+        width: 445px;
         padding-left: 20px;
         background: #59C173;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
@@ -80,7 +80,7 @@ background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+
     #tekst4 {
         position: relative;
         top: -285px;
-        left: 450px;
+        left: 460px;
         height: 250px;
         width: 350px;
         background: #59C173;  /* fallback for old browsers */
@@ -107,7 +107,7 @@ background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+
   background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
-	height: 188vh;
+	height: 192vh;
   }
 
 
@@ -194,18 +194,18 @@ background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+
         <nav class="navbar">
         
             <ul>
-                <li><a class="active"href="index.html">Areal</a></li>
-                <li><a href="omkrets.html">Omkrets</a></li>
+                <li><a href="index.html">Areal</a></li>
+                <li><a class="active"href="omkrets.html">Omkrets</a></li>
              
             </ul>
         </nav>
     
-    <center><i><h1 id="title">Areal Av Former</h1></i></center>
+    <center><i><h1 id="title">Omkrets Av Former</h1></i></center>
     
     
     <div id="tekst">
     <h2 id="title2">Sirkel</h2>
-    <p>A=4*r*r </p>
+    <p>O=2*pi*r</p>
     <div id = "plass"></div>
 <svg width="120" height="120">
     <circle cx="60" cy="60" r="50" stroke="white" stroke-width="5" fill="lightgreen" />
@@ -213,21 +213,20 @@ background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+
     </div>
     
     <div id="tekst2">
-    <h2 id="title2">Info om Areal </h2>
-    <p> Arealet er lengde multiplisert med bredde. Arealet til rektangler er lengde multiplisert med bredde. Arealet til rettvinklede trekanter er bredde multiplisert med
-        høyde dividert med 2. Arealet til sirkler er radius multiplisert med radius multiplisert med 3,14. </p>
+    <h2 id="title2">Info om Omkrets </h2>
+    <p> Omkrets er et mål for hvor langt det er rundt en figur, langs sidekantene. Omkrets er et mål for lengde. Derfor måles omkrets i meter eller i en lengdeenhet avledet av meter. Omkretsen av en sirkel er lengden av én runde langs sirkellinja. Omkretsen av en trekant ABC er summen av trekantens tre sider. Omkretsen til en rektangel er summen av alle sidene addert med hverandre. </p>
     </div>
     
     <div id="tekst3">
     <h2 id="title2">Trekant</h2>
-    <p>Areal: (Grunnlinje * høyde)/2</p>
+    <p> Omkrets: S1+S2+S3</p>
     <div id="arrow-up"></div>
     
     </div>
     
     <div id="tekst4">
     <h2 id="title2">Rektangel</h2>
-    <p>Areal: L*B </p>
+    <p> Omkrets: 2L + 2B</p>
     <div class = "rektangel"></div>
     <svg width="250" height="150">
         <rect width="300" height="100" style="fill:lightgreen;stroke-width:4;stroke:white">
